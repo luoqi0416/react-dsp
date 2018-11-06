@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body,
+html,
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    font-size: 20px;
+    color: #fff;
+}
+
+.content {
+    flex: 1;
+    margin-left: 5px;
+}
+
+.content nav {
+    display: flex;
+}
+
+.content nav a {
+    padding: 5px 10px;
+    border: solid 1px #ccc;
+    margin: 0 2px;
+    color: #666;
+}
+
+.content nav a.active {
+    color: skyblue;
+    text-decoration: none;
+}
+
+.from {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.from label {
+    margin: 10px 0;
+}
+
+.from input {
+    width: 55%;
+    margin: 0 10px;
+}
+
+.login-form {
+    width: 300px;
+    margin: 100px auto;
+    background: lightsteelblue;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.ant-btn {
+    width: 100%;
+}
+
+.ant-layout-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
